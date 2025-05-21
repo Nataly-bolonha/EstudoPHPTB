@@ -15,7 +15,7 @@
 
 
 <div class="container mt-5">
-    <div class="row   justify-content-center">
+    <div class=" login row   justify-content-center">
         <div class="col-12 col-sm-6 col-md-6 col-lg-6">
             <div class="card">
                 <div class="card-header bg-info">

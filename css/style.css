@@ -1,3 +1,17 @@
+body{
+    margin : 0 0;
+    padding : 0 0;
+    background: url('../jungkook-bts-foto-big-hit-music-hybe.jpg');
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
 .login {
     height: 100vh;
     align-items: center;
