@@ -1,3 +1,18 @@
+<?php
+
+session_start();
+if(!isset($_SESSION['login'])){
+
+}
+
+
+
+
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -16,6 +31,9 @@
                     <h4 class=" text-center">
                         Dashbosrd do sistema
                     </h4>
+                   
+                 <a  href= "response.php"class="btn btn-outline-info btn-block mt-4 mb-4">Acessar!</a>
+                 <a  href= "logout.php"class="btn btn-outline-info btn-block mt-4 mb-4">!</a>
                 </div>
             </div>
         </div>

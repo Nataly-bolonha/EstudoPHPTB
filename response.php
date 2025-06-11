@@ -1,10 +1,13 @@
 <?php
-
+session_start();
+if(!isset($_SESSION['login'])){
+    
+}
 if($_POST['nome'] == "admin" && $_POST['senha'] == "senha"){
     session_start();
     $_SESSION['nome'] = $_POST['nome'];
 } else {
-  reater ('location: natalyboasvindas.php?return= opaa.... deu merda!!!');
+  reater ('location: login.php?return= opaa.... deu merda!!!');
 }
 
 ?>
@@ -30,7 +33,7 @@ if($_POST['nome'] == "admin" && $_POST['senha'] == "senha"){
 
                         ?>
                     </h3>
-                    <button class="btn btn-outline-info btn-block mt-4 mb-4">Acessar!</button>
+                    <a  href= "dash.php"class="btn btn-outline-info btn-block mt-4 mb-4">Acessar!</a>
                     
                 </div>
             </div>
